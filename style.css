@@ -1,0 +1,20 @@
+.cuadro{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.table{
+    width: 400px;
+}
+
+.container{
+    background-color: rgb(206, 204, 204);
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
