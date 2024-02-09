@@ -79,23 +79,12 @@ let rea = ""
     </th>
     <td class="select">
         ${realizadas[i].descripcion}
-        <div class="select">
-        <div class="select">
-        <div class="form-check">
-          
-          <label class="form-check-label" for="checkbox-${i}"></label>
-        </div>
-        <i class="fa-solid fa-x" id="icono-x-${i}"></i>
-      </div>
     </td>
     </tr>`;
+    
   }
 
-  iconoX.addEventListener("click", () => {
-    tareas.splice(i, 1);
-    console.log(`Icono "x" ${i + 1} clicado.`);
-    actualizarLista();
-  });
+  
   lista2.innerHTML = rea;
 
 };
