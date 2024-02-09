@@ -90,6 +90,12 @@ let rea = ""
     </td>
     </tr>`;
   }
+
+  iconoX.addEventListener("click", () => {
+    tareas.splice(i, 1);
+    console.log(`Icono "x" ${i + 1} clicado.`);
+    actualizarLista();
+  });
   lista2.innerHTML = rea;
 
 };
